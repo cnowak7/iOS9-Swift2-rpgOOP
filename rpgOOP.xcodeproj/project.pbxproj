@@ -12,6 +12,11 @@
 		837B2AFE1CF6A6A5008BD507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837B2AFC1CF6A6A5008BD507 /* Main.storyboard */; };
 		837B2B001CF6A6A5008BD507 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 837B2AFF1CF6A6A5008BD507 /* Assets.xcassets */; };
 		837B2B031CF6A6A5008BD507 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 837B2B011CF6A6A5008BD507 /* LaunchScreen.storyboard */; };
+		837B2B0B1CF6A804008BD507 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2B0A1CF6A804008BD507 /* Character.swift */; };
+		837B2B0E1CF6C0C8008BD507 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2B0D1CF6C0C8008BD507 /* Player.swift */; };
+		837B2B101CF6CAFA008BD507 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2B0F1CF6CAFA008BD507 /* Enemy.swift */; };
+		837B2B121CF6CC83008BD507 /* Kimara.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2B111CF6CC83008BD507 /* Kimara.swift */; };
+		837B2B141CF6CD91008BD507 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 837B2B131CF6CD91008BD507 /* DevilWizard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +27,11 @@
 		837B2AFF1CF6A6A5008BD507 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		837B2B021CF6A6A5008BD507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		837B2B041CF6A6A5008BD507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		837B2B0A1CF6A804008BD507 /* Character.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		837B2B0D1CF6C0C8008BD507 /* Player.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		837B2B0F1CF6CAFA008BD507 /* Enemy.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
+		837B2B111CF6CC83008BD507 /* Kimara.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Kimara.swift; sourceTree = "<group>"; };
+		837B2B131CF6CD91008BD507 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,12 +66,25 @@
 			children = (
 				837B2AF81CF6A6A5008BD507 /* AppDelegate.swift */,
 				837B2AFA1CF6A6A5008BD507 /* ViewController.swift */,
+				837B2B0C1CF6A825008BD507 /* Models */,
 				837B2AFC1CF6A6A5008BD507 /* Main.storyboard */,
 				837B2AFF1CF6A6A5008BD507 /* Assets.xcassets */,
 				837B2B011CF6A6A5008BD507 /* LaunchScreen.storyboard */,
 				837B2B041CF6A6A5008BD507 /* Info.plist */,
 			);
 			path = rpgOOP;
+			sourceTree = "<group>";
+		};
+		837B2B0C1CF6A825008BD507 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				837B2B0A1CF6A804008BD507 /* Character.swift */,
+				837B2B0D1CF6C0C8008BD507 /* Player.swift */,
+				837B2B0F1CF6CAFA008BD507 /* Enemy.swift */,
+				837B2B111CF6CC83008BD507 /* Kimara.swift */,
+				837B2B131CF6CD91008BD507 /* DevilWizard.swift */,
+			);
+			name = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -135,6 +158,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				837B2B0E1CF6C0C8008BD507 /* Player.swift in Sources */,
+				837B2B101CF6CAFA008BD507 /* Enemy.swift in Sources */,
+				837B2B141CF6CD91008BD507 /* DevilWizard.swift in Sources */,
+				837B2B121CF6CC83008BD507 /* Kimara.swift in Sources */,
+				837B2B0B1CF6A804008BD507 /* Character.swift in Sources */,
 				837B2AFB1CF6A6A5008BD507 /* ViewController.swift in Sources */,
 				837B2AF91CF6A6A5008BD507 /* AppDelegate.swift in Sources */,
 			);
